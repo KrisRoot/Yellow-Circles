@@ -12,7 +12,7 @@ class Example(QWidget):
         self.initUI()
 
     def initUI(self):
-        uic.loadUi('qt.ui', self)
+        uic.loadUi('ui.ui', self)
         self.button.clicked.connect(self.on_click)
 
         self.show()
